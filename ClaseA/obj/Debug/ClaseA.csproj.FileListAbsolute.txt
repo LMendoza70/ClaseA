@@ -1,0 +1,7 @@
+D:\2025-2\Practicas\ClaseA\ClaseA\bin\Debug\ClaseA.exe.config
+D:\2025-2\Practicas\ClaseA\ClaseA\bin\Debug\ClaseA.exe
+D:\2025-2\Practicas\ClaseA\ClaseA\bin\Debug\ClaseA.pdb
+D:\2025-2\Practicas\ClaseA\ClaseA\obj\Debug\ClaseA.csproj.AssemblyReference.cache
+D:\2025-2\Practicas\ClaseA\ClaseA\obj\Debug\ClaseA.csproj.CoreCompileInputs.cache
+D:\2025-2\Practicas\ClaseA\ClaseA\obj\Debug\ClaseA.exe
+D:\2025-2\Practicas\ClaseA\ClaseA\obj\Debug\ClaseA.pdb
