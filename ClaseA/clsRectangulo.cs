@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClaseA
 {
-    class clsRectangulo
+    class clsRectangulo:clsFigura
     {
         //creamos los atributos 
         private float Altura;
@@ -35,12 +35,14 @@ namespace ClaseA
         //creamos el constructor
         public clsRectangulo()
         {
+            nombre = "Rectangulo";
             Altura = 0;
             Ancho = 0;
         }
 
         public clsRectangulo(float ba,float al)
         {
+            nombre = "Rectangulo";
             Altura = al;
             Ancho = ba;
         }

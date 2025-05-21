@@ -12,6 +12,10 @@ namespace ClaseA
         {
             //voy a inicializar un objeto rectangulo
             clsRectangulo miRectangulo = new clsRectangulo();
+            clsCuadrado miCuadro = new clsCuadrado();
+
+            clsCuadrado micuadro2 = new clsCuadrado(5);
+            clsCuadrado cuadro3 = new clsCuadrado(micuadro2);
             Console.WriteLine("Programita que calcula area y perimetro de un rectangulo");
             Console.WriteLine("Captura la altura del rectangulo...");
             miRectangulo.setAltura(float.Parse( Console.ReadLine()));
