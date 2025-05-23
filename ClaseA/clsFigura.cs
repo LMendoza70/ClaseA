@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClaseA
 {
-    class clsFigura
+    abstract class clsFigura
     {
         //atributos
         protected string nombre;
@@ -27,8 +27,8 @@ namespace ClaseA
         {
             nombre = "";
         }
-        
-        //metodos
+
+        /*metodos
         public float Area()
         {
             float res = 0;
@@ -38,6 +38,15 @@ namespace ClaseA
         public float Perimetro()
         {
             return 0;
+        }*/
+
+        //metodos abastractos
+
+        public abstract float Area();
+        public abstract float Perimetro();
+        public string descripcion()
+        {
+            return "Esta es la descripcion de la figura" + Area();
         }
     }
 }

@@ -13,8 +13,12 @@ namespace ClaseA
             //voy a inicializar un objeto rectangulo
             clsRectangulo miRectangulo = new clsRectangulo();
             clsCuadrado miCuadro = new clsCuadrado();
-
             clsCuadrado micuadro2 = new clsCuadrado(5);
+
+            //instanciamos una figura
+            clsRectangulo rectangulo = new clsRectangulo();
+            clsFigura triangulo = new clsTriangulo(5,7,9);
+
             clsCuadrado cuadro3 = new clsCuadrado(micuadro2);
             Console.WriteLine("Programita que calcula area y perimetro de un rectangulo");
             Console.WriteLine("Captura la altura del rectangulo...");
@@ -25,6 +29,14 @@ namespace ClaseA
             Console.WriteLine("El area del rectangulo es : "+ miRectangulo.Area()+" m2");
             Console.WriteLine("El perimetro del rectangulo es : "+miRectangulo.Perimetro()+" m");
             Console.ReadKey();
+
+
+
+            clsFigura figurita;
+
+            //haces tu menu
+            //haces tu case
+            //en cada caso tu inicializas el objeto
         }
     }
 }
